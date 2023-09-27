@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Quahon";
+  src: url(./../fonts/Quahon.otf);
+}
+
+@font-face {
+  font-family: "Maven";
+  src: url(./../fonts/MavenPro-Regular.ttf);
+}
+header {
+  background-color: #333333;
+  padding: 20px 20px 160px 20px;
+}
+div {
+  background-image: linear-gradient(to top right, #ff00ff, #2727f0, #48cefa);
+  border-radius: 8px;
+  box-shadow: 0px 25px 30px rgba(0, 0, 0, 0.328);
+}
+
+article img {
+  width: 700px;
+}
+.navi li {
+  text-align: right;
+  font-family: "Maven";
+  line-height: 2;
+  color: #8c8c8c;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1rem;
+}
+
+.div-gradient {
+  width: 300px;
+  text-align: center;
+  padding: 24px;
+  color: white;
+  margin: 100px auto 30px auto;
+}
+.div-gradient h1 {
+  font-family: "Quahon";
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Maven";
+  font-size: 0.75em;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #f5f5f5;
+}
+
+section {
+  margin: 160px 50px 50px 50px;
+}
+article {
+  width: fit-content;
+  margin: 0 auto 80px auto;
+}
+h3 {
+  font-size: 56px;
+  margin-top: -50px;
+  margin-bottom: 72px;
+  letter-spacing: 0.15em;
+}
+.header-article {
+  background-color: white;
+  background-image: none;
+  box-shadow: none;
+  width: 50%;
+  margin-bottom: 100px;
+}
+h4 {
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 8px;
+}
